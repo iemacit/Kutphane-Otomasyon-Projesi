@@ -55,7 +55,8 @@ public class UserLogin extends javax.swing.JFrame {
         jLabel3 = new javax.swing.JLabel();
         jLabel1 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("ÜYE EKRANI");
         getContentPane().setLayout(null);
 
         table_Books.setModel(new javax.swing.table.DefaultTableModel(

@@ -47,7 +47,8 @@ public class PageBooks extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("KİTAP AYARLARI");
         getContentPane().setLayout(null);
 
         button_Remove.setBackground(new java.awt.Color(153, 153, 153));

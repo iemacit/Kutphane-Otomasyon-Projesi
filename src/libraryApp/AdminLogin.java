@@ -32,7 +32,8 @@ public class AdminLogin extends javax.swing.JFrame {
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
+        setTitle("YÖNETİCİMENÜSÜ");
         getContentPane().setLayout(null);
 
         button_People.setBackground(new java.awt.Color(153, 153, 153));
