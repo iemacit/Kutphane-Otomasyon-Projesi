@@ -147,7 +147,7 @@ public class UserLogin extends javax.swing.JFrame {
                 String yazar = rs.getString("Kitap_Yazari");
                 String sayfalar = rs.getString("Kitap_İcerigi");
                 String DATA;
-                String dosyaYolu = "C:\\Users\\Pc\\Desktop\\" + ad;
+                String dosyaYolu = "C:\\Users\\"+System.getProperty("user.name")+"\\Desktop\\" + ad;
                 File myFile = new File(dosyaYolu);
                 myFile.mkdir();
                 myFile.createNewFile();
